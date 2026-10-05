@@ -5,7 +5,7 @@ class Egressguard < Formula
   # the release tarball with its sha256.
   url "ssh://git@github.com/sentiens/egressguard.git",
       tag:      "v0.1.0",
-      revision: "ff55eff8e22134d327b9ae6415d7d8923ee9dc36"
+      revision: "a483e5989765eecf10f6ee45688dbfa655ac1c32"
   license "MIT"
   head "ssh://git@github.com/sentiens/egressguard.git", branch: "main"
 
