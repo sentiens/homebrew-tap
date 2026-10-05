@@ -1,8 +1,8 @@
 class Egressguard < Formula
   desc "VPN kill switch for macOS: trusted networks, VPN tunnels, or nothing"
   homepage "https://github.com/sentiens/egressguard"
-  url "https://github.com/sentiens/egressguard/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "3b45d156cdd287100a702b497dd0be828ab8f63a7edb15e153003586db271851"
+  url "https://github.com/sentiens/egressguard/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "a8356444849f937106397bb349eb47bd65f0e11bae6f92653d442c59c64f790e"
   license "MIT"
   head "https://github.com/sentiens/egressguard.git", branch: "main"
 
