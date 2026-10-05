@@ -1,13 +1,10 @@
 class Egressguard < Formula
-  desc "Kill switch for macOS: trusted networks, VPN tunnels, or nothing"
+  desc "VPN kill switch for macOS: trusted networks, VPN tunnels, or nothing"
   homepage "https://github.com/sentiens/egressguard"
-  # Private phase: fetched over SSH with the owner's key. On publishing this becomes
-  # the release tarball with its sha256.
-  url "ssh://git@github.com/sentiens/egressguard.git",
-      tag:      "v0.1.0",
-      revision: "f310b881be400481ec1333599eb677acc38fd90a"
+  url "https://github.com/sentiens/egressguard/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "e46b1a58ae6af706f844f3f19a7bc84493ed3ca26357445d79cdad00669316fb"
   license "MIT"
-  head "ssh://git@github.com/sentiens/egressguard.git", branch: "main"
+  head "https://github.com/sentiens/egressguard.git", branch: "main"
 
   depends_on "go" => :build
   depends_on macos: :sonoma
